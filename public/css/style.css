@@ -1,0 +1,78 @@
+.selected{
+    color:#843534;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#wrap {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -255px;
+}
+footer,
+.push {
+    height: 255px;
+}
+.brand-logo{
+    margin: 3px;
+}
+.title{
+    border-bottom: 2px #EE6E73 solid;
+    margin-bottom: 20px;
+}
+.overflowHiden{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:clip;
+}
+table {
+    table-layout:fixed
+}
+td{
+    border-right: 1px white dotted;
+}
+.clickable{
+    cursor: pointer;
+}
+.rightDiv{
+    display: block;
+    text-align: right;
+    margin-top:-15px;
+}
+.bottomDiv{
+    display: block;
+}
+
+.optionsA{
+    color: #000;
+    margin: 5px;
+    border:1px #EE6E73 solid;
+    border-radius: 2px;
+    padding:5px
+}
+
+.optionsA-red{
+    color: #EE6E73;
+}
+.spaceBottom{
+    margin-bottom: 10px;
+}
+.btn-small {
+    height: 30px;
+    width: 30px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+}
+.post-title{
+    display: block;
+    border-bottom: 2px #EE6E73 solid;
+    margin-bottom: 20px;
+}
+.post-title p,.post-title h2{
+    display: inline;
+    vertical-align: text-bottom;
+}
